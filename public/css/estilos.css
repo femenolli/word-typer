@@ -1,0 +1,68 @@
+.frase {
+	font-size: 20px;
+}
+
+.campo-digitacao {
+	font-size: 20px;
+	height: 130px;
+	border: 3px solid black;
+
+}
+
+.campo-digitacao-desativado {
+	background-color: lightgrey;
+}
+
+.icones {
+	vertical-align: middle;
+}
+
+.campo-digitacao-correto {
+	border: 3px solid green;
+}
+
+.campo-digitacao-errado {
+	border: 3px solid red;
+}
+
+.placar {
+	display: none;
+}
+
+body {
+	overflow: scroll;
+}
+
+#erro {
+	color: red;
+	display: none;
+}
+
+#spinner {
+	display: none;
+}
+
+#frase-id {
+	width: 40px;
+}
+
+#botao-sync {
+	float: right;
+}
+
+.select-usuarios {
+	display: inline-block;
+}
+
+#usuarios {
+	display: block;
+}
+
+.selectize-input {
+	vertical-align: middle;
+	width: 150px;
+}
+
+.selectize-control {
+	width: 150px;
+}
